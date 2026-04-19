@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+h1, h2 {
+    font-family: "Bitcount Grid Double", system-ui;
+}
+
+p, li {
+    font-family: "Meow Script", cursive;
+    font-size: 14pt;
+}
+
+.div {
+    max-width: 1000px;
+    margin: 60px auto;
+    background-color: yellow;
+}
+
+.site-header {
+    background-color: cyan;
+    padding: 10px 0px 10px 20px;
+}
+
+.site-nav {
+    display: flex;
+    gap: 12.5px;
+    padding: 0;
+    list-style: none;
+}
+
+.flex-container {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+.sidebar {
+    background-color: aliceblue;
+    flex: 0 0 250px;
+    padding: 20px;
+}
+
+.article {
+    background-color: magenta;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.footer {
+    background-color: darkmagenta;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a:link { 
+    color: whitesmoke; 
+}
+
+a:visited {
+    color: cyan; 
+}
+
+a:hover { 
+    color: magenta; 
+}
+
+a:active {
+    color: yellow;
+}

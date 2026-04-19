@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet">
+        <title>Flexbox</title>
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <body>
+        <!--HEADER-->
+        <div class="div">
+            <header class="site-header">
+            <h1>Pets</h1>
+            <p>Everyone's best friends</p>
+            
+            <!--NAVIGATION-->
+                <nav>
+                    <ul class="site-nav">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Dogs</a></li>
+                        <li><a href="">Cats</a></li>
+                        <li><a href="">Fish</a></li>
+                        </ul>
+                </nav>
+            </header>
+
+            <!--MAIN-->            
+            <main class="flex-container">
+                <!--ASIDE-->
+                <aside class="sidebar">
+                    <h2>Quick Links for Fish</h2>
+                    <ul>
+                        <li><a href="">Fresh Water</a></li>
+                        <li><a href="">Salt Water</a></li>
+                    </ul>
+                </aside>
+
+                <!--ARTICLE-->                
+                <article class="article">
+                    <h2> About Fish </h2>
+                    <p>This page is about fish.</p>
+                    <p>This page is using <code>display: flex</code> to create the two-column sidebar in a fixed-width layout.  To create this layout you need to add:</p>
+                    
+                    <ul>
+                        <li>Classes to proper tags</li>
+                        <li>A <code>div</code> to create the max-width centered layout with the class of <code>wrapper</code></li>
+                        <li>A <code>div</code> to create the "flex container" which encompasses the <code>aside</code> and the <code>main</code> as the two columns</li>
+                        <li>Set widths in sidebar and main that equal 100%, then us <code>gap</code> property in the flex container to create a space between them.</li>
+                    </ul>
+
+                    <p>You can learn more about setting up your aquarium, and whether fresh water or salt water fish are the best fit for you! Keep in mind that fresh water fish are easier to care for, which is important. Keeping fish healthy is a lot harder than you would think.</p>
+                </article>
+            </main>
+
+            <!--FOOTER-->
+            <footer class="footer">
+                <ul>
+                    <li><a href="https://facebook.com">facebook</a></li>
+                    <li><a href="https://instagram.com">instagram</a></li>
+                    <li><a href="https://twitter.com">twitter</a></li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
